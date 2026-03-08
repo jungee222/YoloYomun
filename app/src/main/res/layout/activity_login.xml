@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        android:id="@+id/gl1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"
+        android:id="@+id/gl2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        android:id="@+id/gl3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="@id/gl3"
+        app:layout_constraintBottom_toBottomOf="@id/gl1"
+        app:layout_constraintTop_toTopOf="@id/gl1"
+        android:text="로그인 (로그인이 가능하지 않을 경우, 로그인 취소)"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/gl3"
+        app:layout_constraintStart_toStartOf="@id/gl3"
+        app:layout_constraintTop_toTopOf="@id/gl2"
+        app:layout_constraintBottom_toBottomOf="@id/gl2"
+        android:text="접근 프로그램 로그인"
+        android:textSize="22.5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/gl3"
+        app:layout_constraintStart_toStartOf="@id/gl3"
+        app:layout_constraintTop_toTopOf="@id/gl2"
+        app:layout_constraintBottom_toBottomOf="@id/gl1"
+        android:text="안면 인식 중..."
+        android:textSize="22.5sp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

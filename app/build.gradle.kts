@@ -25,6 +25,11 @@ android {
             )
         }
     }
+
+    buildFeatures {
+        viewBinding = true;
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -32,7 +37,9 @@ android {
 }
 
 dependencies {
-
+    val navVersion = "2.7.7"
+    implementation("androidx.navigation:navigation-fragment-ktx:${navVersion}")
+    implementation("androidx.navigation:navigation-ui-ktx:${navVersion}")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
