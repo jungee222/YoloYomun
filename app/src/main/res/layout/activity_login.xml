@@ -36,7 +36,8 @@
         app:layout_constraintBottom_toBottomOf="@id/gl1"
         app:layout_constraintTop_toTopOf="@id/gl1"
         android:text="로그인 (로그인이 가능하지 않을 경우, 로그인 취소)"
-        android:textSize="15sp"/>
+        android:textSize="15sp"
+        android:id="@+id/loginButton"/>
 
     <TextView
         android:layout_width="wrap_content"
