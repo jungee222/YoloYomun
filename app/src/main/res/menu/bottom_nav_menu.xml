@@ -7,11 +7,11 @@
     <item
         android:id="@+id/searchFragment"
         android:icon="@android:drawable/ic_menu_view"
-        android:title="검색" />
+        android:title="업로드" />
     <item
         android:id="@+id/profileFragment"
         android:icon="@android:drawable/ic_menu_view"
-        android:title="프로필" />
+        android:title="아카이브" />
 
 
 </menu>
