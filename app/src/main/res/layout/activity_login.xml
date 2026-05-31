@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="@id/gl3"
         app:layout_constraintBottom_toBottomOf="@id/gl1"
         app:layout_constraintTop_toTopOf="@id/gl1"
-        android:text="시작하기"
+        android:text="@string/login_start"
         android:textSize="15sp"
         android:id="@+id/loginButton"/>
 
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="@id/gl3"
         app:layout_constraintTop_toTopOf="@id/gl2"
         app:layout_constraintBottom_toBottomOf="@id/gl2"
-        android:text="해변 위험 요소 감지기: 스마트씨"
+        android:text="@string/login_title"
         android:textSize="22.5sp"/>
 
     <TextView
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="@id/gl3"
         app:layout_constraintTop_toTopOf="@id/gl2"
         app:layout_constraintBottom_toBottomOf="@id/gl1"
-        android:text="GPS 권한 확인 중..."
+        android:text="@string/login_status"
         android:textSize="22.5sp"/>
 
 

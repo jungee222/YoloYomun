@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Captured photos live in the app's external files dir under /archive. -->
+    <external-files-path
+        name="archive"
+        path="archive/" />
+</paths>

@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- SmartSea ocean palette -->
+    <color name="ocean_primary">#0277BD</color>
+    <color name="ocean_dark">#01579B</color>
+    <color name="ocean_light">#4FC3F7</color>
+    <color name="ocean_pale">#E1F5FE</color>
+    <color name="accent_coral">#FF7043</color>
+
+    <color name="bg_screen">#F4F8FB</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="text_primary">#102027</color>
+    <color name="text_secondary">#5B6B77</color>
+    <color name="divider">#E0E7ED</color>
+    <color name="nav_unselected">#90A4AE</color>
 </resources>
