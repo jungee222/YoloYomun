@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">YoloYomun</string>
+
+    <!-- 하단 내비게이션 -->
+    <string name="nav_home">홈</string>
+    <string name="nav_upload">업로드</string>
+    <string name="nav_analysis">분석</string>
+    <string name="nav_archive">아카이브</string>
+
+    <!-- 공통 -->
+    <string name="brand">스마트씨</string>
+    <string name="action_language">언어 전환</string>
+    <string name="action_cancel">취소</string>
+
+    <!-- 로그인 -->
+    <string name="login_title">해변 위험 요소 감지기: 스마트씨</string>
+    <string name="login_status">GPS 권한 확인 중…</string>
+    <string name="login_start">시작하기</string>
+
+    <!-- 홈 -->
+    <string name="home_greeting">스마트씨에 오신 것을 환영합니다</string>
+    <string name="home_subtitle">해변 위험 요소를 촬영하고 분석하고 보관하세요.</string>
+    <string name="home_quick_access">빠른 이동</string>
+    <string name="home_card_upload_title">업로드</string>
+    <string name="home_card_upload_desc">카메라로 사진 촬영</string>
+    <string name="home_card_analysis_title">분석</string>
+    <string name="home_card_analysis_desc">감지 결과 확인</string>
+    <string name="home_card_archive_title">아카이브</string>
+    <string name="home_card_archive_desc">저장한 사진 둘러보기</string>
+
+    <!-- 업로드 -->
+    <string name="upload_title">업로드</string>
+    <string name="upload_hint">사진을 촬영하면 아카이브에 저장됩니다.</string>
+    <string name="action_take_photo">사진 촬영</string>
+    <string name="upload_preview_desc">마지막으로 촬영한 사진</string>
+    <string name="upload_saved">사진이 아카이브에 저장되었습니다</string>
+    <string name="upload_camera_unavailable">사용 가능한 카메라 앱이 없습니다</string>
+    <string name="upload_capture_failed">사진을 촬영하지 못했습니다</string>
+
+    <!-- 분석 -->
+    <string name="analysis_title">분석</string>
+
+    <!-- 아카이브 -->
+    <string name="archive_title">아카이브</string>
+    <string name="archive_empty">아직 사진이 없습니다.\n업로드 탭에서 촬영해 보세요.</string>
+    <string name="archive_photo_desc">저장된 사진 %1$d</string>
+
+    <!-- 사진 상세 -->
+    <string name="detail_image_desc">선택한 사진</string>
+    <string name="action_share">공유</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_analyze">분석</string>
+    <string name="delete_confirm_title">사진을 삭제할까요?</string>
+    <string name="delete_confirm_msg">이 사진이 아카이브에서 영구적으로 삭제됩니다.</string>
+    <string name="photo_deleted">사진이 삭제되었습니다</string>
+    <string name="share_chooser">사진 공유</string>
+</resources>

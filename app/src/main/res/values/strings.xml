@@ -1,5 +1,57 @@
 <resources>
     <string name="app_name">YoloYomun</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_upload">Upload</string>
+    <string name="nav_analysis">Analysis</string>
+    <string name="nav_archive">Archive</string>
+
+    <!-- Shared -->
+    <string name="brand">SmartSea</string>
+    <string name="action_language">Switch language</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Login -->
+    <string name="login_title">Beach Hazard Detector: SmartSea</string>
+    <string name="login_status">Checking GPS permission…</string>
+    <string name="login_start">Get Started</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Welcome to SmartSea</string>
+    <string name="home_subtitle">Capture, analyze, and archive beach hazards.</string>
+    <string name="home_quick_access">Quick access</string>
+    <string name="home_card_upload_title">Upload</string>
+    <string name="home_card_upload_desc">Take a photo with the camera</string>
+    <string name="home_card_analysis_title">Analysis</string>
+    <string name="home_card_analysis_desc">Review detection results</string>
+    <string name="home_card_archive_title">Archive</string>
+    <string name="home_card_archive_desc">Browse your saved photos</string>
+
+    <!-- Upload -->
+    <string name="upload_title">Upload</string>
+    <string name="upload_hint">Take a photo and it will be saved to your archive.</string>
+    <string name="action_take_photo">Take Photo</string>
+    <string name="upload_preview_desc">Last captured photo</string>
+    <string name="upload_saved">Photo saved to archive</string>
+    <string name="upload_camera_unavailable">No camera app is available</string>
+    <string name="upload_capture_failed">Could not capture the photo</string>
+
+    <!-- Analysis -->
+    <string name="analysis_title">Analysis</string>
+
+    <!-- Archive -->
+    <string name="archive_title">Archive</string>
+    <string name="archive_empty">No photos yet.\nCapture one from the Upload tab.</string>
+    <string name="archive_photo_desc">Saved photo %1$d</string>
+
+    <!-- Photo detail -->
+    <string name="detail_image_desc">Selected photo</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_analyze">Analyze</string>
+    <string name="delete_confirm_title">Delete photo?</string>
+    <string name="delete_confirm_msg">This photo will be permanently removed from your archive.</string>
+    <string name="photo_deleted">Photo deleted</string>
+    <string name="share_chooser">Share photo via</string>
 </resources>

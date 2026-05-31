@@ -7,16 +7,21 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.yoloyomun.homeFragment"
-        android:label="홈" />
+        android:label="@string/nav_home" />
 
     <fragment
-        android:id="@+id/searchFragment"
-        android:name="com.example.yoloyomun.searchFragment"
-        android:label="검색" />
+        android:id="@+id/uploadFragment"
+        android:name="com.example.yoloyomun.uploadFragment"
+        android:label="@string/nav_upload" />
 
     <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.example.yoloyomun.profileFragment"
-        android:label="프로필" />
+        android:id="@+id/analysisFragment"
+        android:name="com.example.yoloyomun.analysisFragment"
+        android:label="@string/nav_analysis" />
+
+    <fragment
+        android:id="@+id/archiveFragment"
+        android:name="com.example.yoloyomun.archiveFragment"
+        android:label="@string/nav_archive" />
 
 </navigation>
